@@ -42,7 +42,7 @@ void nl_process_data(struct sk_buff *__skb)
 {
     struct nlmsghdr *nlh = NULL;
     char *umsg = NULL;
-    char *kmsg = "zhuming hello users!!!";
+    char *kmsg = "test hello users!!!";
 
     if(__skb->len >= nlmsg_total_size(0))
     {
